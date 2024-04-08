@@ -42,6 +42,8 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   input: {
+    width: '80%', // Defina a largura desejada aqui, por exemplo, 80% da largura da tela
+    maxWidth: 300, // Defina uma largura máxima, se desejar
     height: 40,
     borderColor: '#ccc',
     borderWidth: 1,
@@ -51,6 +53,8 @@ const styles = StyleSheet.create({
   },
   button: {
     backgroundColor: '#000',
+    width: '80%', // Defina a largura desejada aqui
+    maxWidth: 300, // Defina uma largura máxima, se desejar
     height: 40,
     borderRadius: 4,
     alignItems: 'center',
